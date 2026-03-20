@@ -1,0 +1,30 @@
+# Robots.txt for Shree PM Consultancy Services
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+# Specify the location of your XML Sitemap
+Sitemap: https://shreepmcs.co.in/sitemap.xml
+Sitemap: https://shreepmcs.vercel.app/sitemap.xml
+
+# Crawl delay for all bots (optional - 1 second)
+Crawl-delay: 1
+
+# Specific rules for Google Bot
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
