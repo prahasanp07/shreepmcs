@@ -3,6 +3,9 @@
 
 const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxtoznMSGbmN3UcE4a1EolMuRtPsRGawNiAyEYq2SQJwSbc4kb0Iv01-UqNdMC2pYgRrQ/exec";
 
+// Enable smooth scrolling for anchor links
+document.documentElement.style.scrollBehavior = 'smooth';
+
 document.addEventListener('DOMContentLoaded', function() {
   // Find the form in the quote/contact section - using more specific selector
   const form = document.querySelector('.bg-primary form');
