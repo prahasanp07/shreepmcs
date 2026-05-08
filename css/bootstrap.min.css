@@ -5153,7 +5153,7 @@ fieldset:disabled .btn {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
 }
 
-.bg-primary.d-flex.align-items-center.justify-content-center.rounded{
+.bg-primary.d-flex.align-items-center.justify-content-center.rounded {
     background-color: #003865 !important;
 }
 
@@ -8346,6 +8346,10 @@ fieldset:disabled .btn {
 
 .bg-primary {
     background-color: #FFD100 !important
+}
+
+.bg-orange {
+    background-color: #F7840F !important
 }
 
 .bg-secondary {
@@ -12542,11 +12546,10 @@ fieldset:disabled .btn {
     }
 }
 
-.g-5{
-    color:#6eb6f1 !important;
+.g-5 {
+    color: #6eb6f1 !important;
 }
 
-.mt-2 .wow .zoomIn{
+.mt-2 .wow .zoomIn {
     margin-top: 100px !important;
 }
-
