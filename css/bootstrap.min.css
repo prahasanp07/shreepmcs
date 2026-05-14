@@ -5089,7 +5089,11 @@ fieldset:disabled .btn {
 }
 
 .accordion-body {
+    color: #212529;
     padding: 1rem 1.25rem
+}
+.accordion-body strong {
+    font-weight: 500;
 }
 
 .accordion-flush .accordion-collapse {

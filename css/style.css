@@ -9,6 +9,7 @@
     --black: #000000;
     --white: #FFFFFF;
     --dark-yellow: #F39200;
+    --dark-blue: #063a63;
 }
 
 
@@ -188,8 +189,8 @@ h6,
 }
 
 .navbar-dark .navbar-toggler {
-    color: var(--primary) !important;
-    border-color: var(--primary) !important;
+    color: var(--dark-blue) !important;
+    border-color: var(--dark-blue) !important;
 }
 
 @media (max-width: 991.98px) {
@@ -265,7 +266,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: #ffff003f;
+    /* background: #ffff003f; */
     z-index: 1;
 }
 
@@ -620,6 +621,11 @@ h6,
 
 /* Small screens (mobile) - hide long text and show compact logo */
 @media (max-width: 575.98px) {
+    #footer-img img {
+        width: 100%;
+        height: 100%;
+    }
+
     .navbar-brand img {
         width: 48px;
         height: 48px;
@@ -726,71 +732,86 @@ h6,
     padding: 10px;
 }
 
-.service-detail-btn{
+.service-detail-btn {
     border-radius: 75% !important;
     width: 30px;
-    height:50px
-} 
-.text-decoration-underline{
-    color:darkblue !important;
+    height: 50px
 }
+
+.text-decoration-underline {
+    color: darkblue !important;
+}
+
 /* .img-fluid{
     display: grid !important;
     place-items: center !important;
     height: 600px;
 } */
-.test-text{
+.test-text {
     font-size: 20px !important;
 }
-.enquire{
+
+.enquire {
     color: #F39200 !important;
-    font-size:15px;
+    font-size: 15px;
 }
-.last-line{
+
+.last-line {
     color: white !important;
     font-size: .80rem !important;
 }
-.top-line{
-    background-color:#F39200 ;
+
+.top-line {
+    background-color: #F39200;
 }
-.text-light-top{
-    color:darkblue !important;
+
+.text-light-top {
+    color: darkblue !important;
     font-weight: 600 !important;
 }
-.zoomIn-about{
+
+.zoomIn-about {
     font-size: 3.25rem !important;
     font-family: sans-serif;
     font-weight: 600 !important;
     color: black !important;
 }
-.about-home{
+
+.about-home {
     font-family: sans-serif;
     font-weight: 600 !important;
     color: black !important;
 }
-.text-uppercase-about{
+
+.text-uppercase-about {
     color: #F39200 !important;
 }
-.img{
+
+.img {
     object-fit: fill !important;
 }
-.mb-3-about{
+
+.mb-3-about {
     font-size: 1.5rem !important;
 }
-.mb-3-about-grp{
-    margin-top:100px !important;
+
+.mb-3-about-grp {
+    margin-top: 100px !important;
     margin-bottom: 100px;
 }
-.text-capitalize-about{
+
+.text-capitalize-about {
     font-size: 1.5rem;
 }
-.mb-0-quote{
+
+.mb-0-quote {
     font-weight: 500 !important;
 }
-.enquire-quote{
+
+.enquire-quote {
     padding-top: 60px;
     font-size: 2rem;
-    display:grid !important;
+    display: grid !important;
 }
 
 /* Hover Zoom Effect */
