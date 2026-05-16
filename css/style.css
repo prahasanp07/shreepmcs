@@ -295,22 +295,28 @@ h6,
 
 
 /*** Section Title ***/
-.section-title::before {
-    position: absolute;
+.section-title > * {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.section-title > *::after {
     content: "";
-    width: 150px;
-    height: 5px;
+    position: absolute;
     left: 0;
+    right: 0;
+    height: 5px;
     bottom: 0;
     background: var(--dark-yellow);
     border-radius: 2px;
+    width: 100%;
 }
 
-.section-title.text-center::before {
-    left: 50%;
-    margin-left: -75px;
+.section-title.text-center {
+    text-align: center;
 }
-
+/* 
 .section-title.section-title-sm::before {
     width: 90px;
     height: 3px;
@@ -385,7 +391,7 @@ h6,
     100% {
         left: 0;
     }
-}
+} */
 
 
 /*** Service ***/
